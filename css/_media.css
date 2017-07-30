@@ -1,0 +1,185 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	
+	.r-tabs .r-tabs-panel .ta-conditions .file-wrap li {
+		width: 315px;
+	}
+	.arrow-up-wrap {
+		bottom: 55px;
+	}
+	.main-footer {
+		padding-bottom: 30px;
+	}	
+	.main-footer__inner--items li,
+	.footer-inner {
+		width: 210px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.r-tabs .r-tabs-panel .ta-conditions .file-wrap li {
+		width: 270px;
+	}
+	.arrow-up-wrap {
+	    bottom: -40px;
+	    z-index: 200;
+	}
+	.main-footer__inner--items li,
+	.footer-inner {
+	    width: 155px;
+	    line-height: 0.7;
+	}
+	.main-footer__inner--items-contacts a {
+		font-size: 2rem;
+	}
+	.main-footer__inner--items-contacts p,
+	.main-footer__inner--items a,
+	.main-footer__inner--map-site a {
+		font-size: 1.3rem;
+	}
+	.footer-inner {
+		margin-bottom: 10px;
+	}	
+}
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+	.arrow-up-wrap {	    
+	    right: 15px;
+	}
+	.main-footer__inner--items-contacts a {
+	    font-size: 2.4rem;
+	}
+	.main-footer__inner--items-contacts p {
+		font-size: 1.6rem;
+	}
+	.main-footer__inner--items li,	
+	.footer-inner {
+		display: none;
+		padding: 0;
+		margin: 0;
+	}
+	.main-footer__inner.main-footer__inner--items {
+		margin-bottom: 7px;
+	}
+	.footer-column-left,
+	.footer-column-right {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.footer-developet-logo {
+		margin-right: 0;
+	}
+}
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 668px) {
+
+}
+/* Custom, iPhone 5 */
+@media only screen and (max-width : 568px) {
+	.footer-column-left {
+		max-width: 335px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .footer-column-left {
+	    max-width: 255px;
+	}
+	.main-footer__inner--items-contacts p {
+		padding-top: 15px;
+	}
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 416px) {
+	.footer-column-left {
+	    max-width: 200px;
+	}
+	.main-footer__inner--items-contacts a {
+	    font-size: 2.1rem;
+	}
+	.main-footer__inner--items-contacts p {
+	    font-size: 1.3rem;
+	}
+}
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 376px) {
+	.r-tabs .r-tabs-panel .ta-conditions .file-wrap {
+		padding-left: 15px;
+	}
+	.footer-column-left {
+	    max-width: 184px;
+	}	
+}
+@media only screen and (max-width : 360px) {
+	.main-footer {
+		padding-bottom: 0;
+	}
+	.footer-column-left {
+	    max-width: 100%;
+	}
+	.main-footer__inner--items-contacts a {
+	    font-size: 2.4rem;
+	}
+	.main-footer__inner--items-contacts p {
+	    font-size: 1.6rem;
+	    margin-bottom: 45px;
+	}
+	.footer-column-right {
+		display: none;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
